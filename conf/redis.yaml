@@ -1,7 +1,7 @@
 init_config:
 
 instances:
-   -   host: 0.0.0.0 
+   -   host: 172.17.42.1
        port: 6379
 #       unix_socket_path: /var/run/redis/redis.sock # optional, can be used in lieu of host/port
 #       password: mypassword
