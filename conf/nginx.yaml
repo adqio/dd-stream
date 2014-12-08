@@ -1,9 +1,6 @@
 init_config:
 
 instances:
-  -   nginx_status_url: http://172.17.42.1:8080/nginx_status/
+  -   nginx_status_url: http://172.17.42.1:8090/nginx_status
         tags:
             -   instance:blue
-  -   nginx_status_url: http://172.17.42.1:8090/nginx_status/
-        tags:
-            -   instance:green
